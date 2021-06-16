@@ -1,1 +1,1 @@
-"# PrideHackathon" 
+# PrideHackathon
