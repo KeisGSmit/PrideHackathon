@@ -1,4 +1,4 @@
-# Title
+# LGBTQ+ History
 
 ![GitHub contributors](https://img.shields.io/github/contributors/KeisGSmit/PrideHackathon)
 ![GitHub last commit](https://img.shields.io/github/last-commit/KeisGSmit/PrideHackathon)
@@ -9,9 +9,9 @@
 
 [Here is a link to the final project](https://KeisGSmit.github.io/PrideHackathon)
 
-BASIC DESCRIPTION OF PROJECT
+This site is an information site about the history of the LGBTQ+ movement. 
 It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. 
-WHY DID I CHOOSE THIS PROJECT
+It was created for an LGBTQ+ themed Hackathon with [Code Institute](https://codeinstitute.net/) in June 2021.
 
 ![Final project image home page](assets/docs/finalpage.png)
 
@@ -137,12 +137,12 @@ This site was deployed to GitHub Pages by following these steps:
 
 ### How to Fork it
 1. Login or Sign Up to [GitHub](www.github.com).
-2. On GitHub, go to [KeisGSmit/PriceHackathon](https://KeisGSmit.github.io/PrideHackathon).
+2. On GitHub, go to [KeisGSmit/PrideHackathon](https://KeisGSmit.github.io/PrideHackathon).
 3. In the top right, click "Fork".
 
 ### How to Clone it
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Fork the repository KeisGSmit/PriceHackathon using the steps above in [How to Fork it](#how-to-fork-it).
+2. Fork the repository KeisGSmit/PrideHackathon using the steps above in [How to Fork it](#how-to-fork-it).
 3. Above the file list, click "Code".
 4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
