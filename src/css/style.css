@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
 .gradient-rainbow {
     background-repeat: no-repeat;
     background-image: linear-gradient(135deg, #EB5F8E, transparent 70%), linear-gradient(45deg, #FE981D, #FCC31E,#35ADCE 85%), linear-gradient(135deg,#EB5F8E,#FCC31E,#35ADCE), linear-gradient(270deg, #35ADCE, transparent 30%);
