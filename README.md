@@ -296,7 +296,7 @@ I tested my website using DevTools Lighthouse feature, and got these results:
     * [Abi Harrison](https://github.com/Abibubble)
     * [Keis](https://github.com/KeisGSmit)
     * [Luana](https://github.com/luziandrade)
-    * [Erik Englund](https://github.com/)
+    * [Erik Englund](https://github.com/EnglundE)
     * [Manni](https://github.com/manni8436)
 
 ### Media
