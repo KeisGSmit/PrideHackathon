@@ -1,13 +1,13 @@
 # Title
 
-![GitHub contributors](https://img.shields.io/github/contributors/abibubble/REPO)
-![GitHub last commit](https://img.shields.io/github/last-commit/abibubble/REPO)
-![GitHub language count](https://img.shields.io/github/languages/count/abibubble/REPO)
-![GitHub top language](https://img.shields.io/github/languages/top/abibubble/REPO)
+![GitHub contributors](https://img.shields.io/github/contributors/KeisGSmit/PrideHackathon)
+![GitHub last commit](https://img.shields.io/github/last-commit/KeisGSmit/PrideHackathon)
+![GitHub language count](https://img.shields.io/github/languages/count/KeisGSmit/PrideHackathon)
+![GitHub top language](https://img.shields.io/github/languages/top/KeisGSmit/PrideHackathon)
 ![Font Awesome version](https://img.shields.io/badge/Font%20Awesome-v5.15.1-blue)
-![GitHub forks](https://img.shields.io/github/forks/abibubble/REPO?style=social)
+![GitHub forks](https://img.shields.io/github/forks/KeisGSmit/PrideHackathon?style=social)
 
-[Here is a link to the final project](https://abibubble.github.io/REPO)
+[Here is a link to the final project](https://KeisGSmit.github.io/PrideHackathon)
 
 BASIC DESCRIPTION OF PROJECT
 It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. 
@@ -79,7 +79,7 @@ WHAT I WANTED FROM THIS PROJECT
 ---
 ## Design
 ### Color Scheme
-* WHAT COLORS USED AND WHY
+* We used a rainbow color scheme to fit with the theme of Pride, using black and white for other areas so as to not overwhelm the user.
 
 ### Typography
 * WHAT FONT AND WHY
@@ -91,6 +91,8 @@ WHAT I WANTED FROM THIS PROJECT
 [Here are the wireframes for desktop, mobile and tablet for this project](assets/docs/wireframes.pdf).
 
 ### Features
+* There is a copyright function at the bottom that audomatically updates to the current year.
+* There is a hide / show function to show or hide the information for each date on click.
 * WHAT FEATURES ARE ONE THE SITE, LIKE SCOREBOARD, FUNCTIONS, SCROLLING ALERT BAR, ETC.
 
 ### Audio
@@ -104,8 +106,8 @@ WHAT I WANTED FROM THIS PROJECT
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### Frameworks Libraries and Programs Used
-#### Font Awesome:
-[Font Awesome](https://fontawesome.com/) was used on all pages to add the instructions, home, settings and copyright icons.
+#### Bootstrap
+[Bootstrap](https://getbootstrap.com/) was used to help us quickly design a good looking responsive site.
 #### Git:
 Git was used for version control by utilizing the Gitpod terminal to add and commit to Git and push to GitHub.
 #### GitHub:
@@ -115,36 +117,32 @@ Balsamiq was used to create the wireframes during the design process.
 #### Responsinator:
 [Responsinator](http://www.responsinator.com/) was used to help improve the responsive design on a variety of devices.
 #### Google DevTools:
-Google DevTools was used to help me find what code correlated to what feature.
+Google DevTools was used to help us find what code correlated to which feature.
 #### Am I Responsive Design:
 [Am I Responsive Design](http://ami.responsivedesign.is/#) was used to check the responsive design of the quiz.
 #### Shields.io:
 [Shields.io](https://shields.io/) was used to create the GitHub badges for this README.md file.
-#### Autoprefixer CSS online
-[Autoprefixer CSS online](https://autoprefixer.github.io/) was used to ensure all prefixes for browsers were included correctly.
-
-BOOTSTRAP, JASMINE TESTING, JQUERY, ETC. USED?
 
 ## Deployment
 ### Initial Deployment
 This site was deployed to GitHub Pages by following these steps:
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Create a new repository named "REPO".
+2. Create a new repository named "PrideHackathon".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
 4. Scroll down to "GitHub Pages".
-5. Under "Source", choose which branch to deploy. I chose "master", but this is sometimes shown as "main".
+5. Under "Source", choose which branch to deploy. We chose "main", but this is sometimes shown as "master".
 6. Choose which folder to deploy from, usually "/root".
 7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
 8. Your URL will be displayed above "Source".
 
 ### How to Fork it
 1. Login or Sign Up to [GitHub](www.github.com).
-2. On GitHub, go to [Abibubble/REPO](https://github.com/Abibubble/REPO).
+2. On GitHub, go to [KeisGSmit/PriceHackathon](https://KeisGSmit.github.io/PrideHackathon).
 3. In the top right, click "Fork".
 
 ### How to Clone it
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Fork the repository Abibubble/REPO using the steps above in [How to Fork it](#how-to-fork-it).
+2. Fork the repository KeisGSmit/PriceHackathon using the steps above in [How to Fork it](#how-to-fork-it).
 3. Above the file list, click "Code".
 4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
@@ -153,7 +151,7 @@ This site was deployed to GitHub Pages by following these steps:
 8. Press Enter to create your clone.
 
 ### Making a Local Clone
-1. Log in to [GitHub](www.github.com) and locate the [Repository](https://github.com/Abibubble/REPO) for this site.
+1. Log in to [GitHub](www.github.com) and locate the [Repository](https://KeisGSmit.github.io/PrideHackathon) for this site.
 2. Under the repository name, above the list of files, click "Code".
 3. Here you can either Clone or Download the repository.
 4. You should clone the repository using HTTPS, clicking on the icon to copy the link.
@@ -195,9 +193,6 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 #### Frequent Visitor Goals
 ##### GOAL
 * HOW THE SITE COMPLETES EACH GOAL
-
-### Full Testing
-[Click here](assets/docs/testing.md) to view the full testing steps that were completed on every device and browser, and screenshots of testing.
 
 #### Desktop / Laptop
 1. Google Chrome
@@ -261,7 +256,7 @@ Friends, family members, and other developers were asked to review the site and 
 * ANY BUGS LEFT IN THE CODE AFTER FINAL DEPLOYMENT, FOR FIXING IN FUTURE RELEASES
 
 ### Lighthouse
-I tested my website using DevTools Lighthouse feature, and got these results:
+We tested our website using DevTools Lighthouse feature, and got these results:
 
 #### Desktop
 ![Lighthouse desktop first try](assets/docs/lighthouse.png)
@@ -284,15 +279,13 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 ---
 ## Credits
 ### Code
-* [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
-* [Autoprefixer CSS online](https://autoprefixer.github.io/): To aid in the CSS prefixing.
 * ANY CODE I USED FROM OTHER PEOPLE OR SITES AND WHO IT'S FROM, INCLUDING CREDITING ANYONE WHO HELPED ME FIX BUGS
 
 ### Audio
 * WHO OWNS THE AUDIO AND WHO EDITED THE AUDIO
 
 ### Content
-* All code was written and edited by team Shamrocked from [Code Institute](https://codeinstitute.net/):
+* All code was written and edited by team 8 from [Code Institute](https://codeinstitute.net/):
     * [Abi Harrison](https://github.com/Abibubble)
     * [Keis](https://github.com/KeisGSmit)
     * [Luana](https://github.com/luziandrade)
@@ -304,4 +297,4 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 
 ### Acknowledgements
 * Our mentor, Maria(https://github.com/maria-ci), at [Code Institute](https://codeinstitute.net/), for continuous helpful feedback and support.
-* The team at [Code Institute](https://codeinstitute.net/), for teaching me the necessary skills to create this site.
+* The team at [Code Institute](https://codeinstitute.net/), for teaching us the necessary skills to create this site.
