@@ -24,3 +24,13 @@ body {
 .hide {
     display: none;
 }
+
+.col > h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    background: -webkit-linear-gradient(#FE981D, #FCC31E,#35ADCE 85%), linear-gradient(135deg,#EB5F8E,#FCC31E,#35ADCE), linear-gradient(270deg, #35ADCE, transparent 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xxx-large;
+}
