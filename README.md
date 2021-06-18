@@ -289,12 +289,13 @@ We tested our website using DevTools Lighthouse feature, and got these results:
     * [Abi Harrison](https://github.com/Abibubble)
     * [Erik Englund](https://github.com/EnglundE)
     * [Keis Smit](https://github.com/KeisGSmit)
-    * [Luana](https://github.com/luziandrade)
+    * [Luana Andrade](https://github.com/luziandrade)
     * [Manni Silva](https://github.com/manni8436)
+* Code from Bootstrap was also used to create a fully responsive site in a short space of time.
 
 ### Media
 * WHO OWNS ANY MEDIA ON THE SITE, SUCH AS IMAGES AND VIDEOS
 
 ### Acknowledgements
-* Our mentor, Maria(https://github.com/maria-ci), at [Code Institute](https://codeinstitute.net/), for continuous helpful feedback and support.
+* Our mentor, [Maria](https://github.com/maria-ci), at [Code Institute](https://codeinstitute.net/), for continuous helpful feedback and support.
 * The team at [Code Institute](https://codeinstitute.net/), for teaching us the necessary skills to create this site.
