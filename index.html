@@ -25,6 +25,8 @@
     <link rel="canonical" href="/">
     <link href="src/css/style.css" rel="stylesheet" type="text/css" />
     <!--Bootstrap and popper CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
@@ -36,13 +38,23 @@
 </head>
 
 <body class="gradient-rainbow">
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+            featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
     <div class="container pb-2">
         <div class="row">
             <div class="col">
 
                 <h1>LGBT History</h1>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample1" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample1">1924: The first gay rights group is established.</a>
                 </p>
@@ -56,10 +68,11 @@
                             the plight of gays in American society. In 1917, he was temporarily committed to a mental
                             institution because of his sexual orientation.
                         </p>
+
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample2" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample2">January, 1958: The Supreme Court rules in favor of gay
                         rights.</a>
@@ -78,7 +91,7 @@
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample3" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample3">April 21, 1966: The Mattachine Society organizes a gay
                         rights “Sip-In.”</a>
@@ -88,18 +101,11 @@
                         <p>During a time when most bars refused to serve gay people, the Mattachine Society,
                             one of the country’s first gay rights organizations, staged a “Sip-In,” during which
                             activists entered a New York City bar, announced they were gay, ordered drinks, and
-                            waited to be served.</p>
-                        <p>
-                            In 1966, gay bars were technically legal in New York but they were often raided by agents of
-                            the State Liquor Authority, which had a regulation against serving homosexuals in bars on
-                            the idea that they were disorderly.
-                        </p>
-
+                          waited to be served.</p>                        
                     </div>
                 </div>
-
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample4" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample4">June 28, 1969: The Stonewall riots spark the beginning of
                         the LGBT movement.</a>
@@ -108,14 +114,36 @@
                     <div class="card card-body">
                         <p>In the early morning hours on June 28, 1969, police performed a raid of the Stonewall Inn,
                             a New York City gay bar — and the customers and their supporters took a stand. The event
-                            turned into a violent protest and led to a days-long series of riots. Those “Stonewall
-                            riots” are
-                            largely considered the start of the LGBTQ civil rights movement in the United States.</p>
+                            turned
+                            into a violent protest and led to a days-long series of riots. Those “Stonewall riots” are
+                            largely
+                            considered the start of the LGBTQ civil rights movement in the United States.</p>
+                        <p>
+                            In 1966, gay bars were technically legal in New York but they were often raided by agents of
+                            the State Liquor Authority, which had a regulation against serving homosexuals in bars on
+                            the idea that they were disorderly.
+                        </p>
+                    </div>
+                </div>
 
+                <p>
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
+                        href="#multiCollapseExample4" role="button" aria-expanded="false"
+                        aria-controls="multiCollapseExample4">June 28, 1969: The Stonewall riots spark the beginning of
+                        the LGBT movement.</a>
+                </p>
+                <div class="collapse multi-collapse pb-2" id="multiCollapseExample4">
+                    <div class="card card-body">
+                        <p>In the early morning hours on June 28, 1969, police performed a raid of the Stonewall Inn,
+                            a New York City gay bar — and the customers and their supporters took a stand. The event
+                            turned
+                            into a violent protest and led to a days-long series of riots. Those “Stonewall riots” are
+                            largely
+                            considered the start of the LGBTQ civil rights movement in the United States.</p>
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample5" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample5">1973: Homosexuality is no longer declared
                         a mental illness.</a>
@@ -137,11 +165,10 @@
                             individuals subjected to a lobotomy in order to change their homosexual orientation,
                             leaving most of these individuals severely disabled for the rest of their lives.
                         </p>
-
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample6" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample6">April, 2000: Vermont takes a huge step toward same-sex
                         marriage legalization.</a>
@@ -163,7 +190,7 @@
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample7" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample7">October, 2009: The Matthew Shepard & James Byrd Jr. Hate
                         Crimes Prevention Act becomes a law.</a>
@@ -184,11 +211,10 @@
                             Noting
                             reports of 12,000 crimes based on sexual orientation over the past 10 years, Obama called
                             the bill another step in the continuing struggle for protecting human rights</p>
-
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample8" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample8">January, 2015: President Obama acknowledges the LGBTQ
                         community in the State of the Union address.</a>
@@ -209,7 +235,7 @@
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample9" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample9">April, 2015: Obama calls for end to conversion
                         therapy.</a>
@@ -227,10 +253,11 @@
                             Christians deal with gay feelings. But mental health groups and gay rights activists say it
                             can increase the risk of depression or suicide</p>
 
+
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample10" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample10">June 26, 2015: Love wins.</a>
                 </p>
@@ -241,11 +268,10 @@
                             gender or sexual
                             orientation. The decision was 5-4. </p>
                         <p></p>
-
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample11" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample11">May, 2016: The Stonewall Inn will become a national
                         monument.</a>
@@ -256,11 +282,10 @@
                             Inn, the site of those historic riots in 1969, the first-ever national monument dedicated to
                             gay
                             rights.</p>
-
                     </div>
                 </div>
                 <p>
-                    <a class="btn btn-primary d-flex justify-content-center" data-bs-toggle="collapse"
+                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
                         href="#multiCollapseExample12" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample12">May, 2019: New York City will honor LGBTQ activists
                         Marsha P. Johnson and Sylvia Rivera with monuments</a>
@@ -273,15 +298,50 @@
                             Street Transvestite Action Revolutionaries (S.T.A.R.) in 1970, an organization dedicated
                             to helping LGBTQ people experiencing homelessness. The monument will commemorate the 50th
                             anniversary of the Stonewall riots, according to the New York Times.</p>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="container-fluid fixed-bottom">
-        <p class="copyright">Copyright &copy; Team 8 <span id="copyright"></span></p>
-    </footer>
+    <div class="footer-clean">
+        <footer>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Team's Name</h3>
+                        <ul>
+                            <!-- <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Want to know more?</h3>
+                        <h3>Here are some helpful projects</h3>
+                        <ul>
+                            <li><a href="https://www.thetrevorproject.org/" target="blank">The Trevor Project</a></li>
+                            <li><a href="https://ilga.org/" target="blank">Ilga</a></li>
+                            <li><a href="https://www.movilh.cl/" target="blank">Movilh</a></li>
+                            <li><a href="https://outrightinternational.org/" target="blank">OutRight</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-sm-4 col-md-3 item">
+                        <h3>Careers</h3>
+                        <ul>
+                            <li><a href="#">Job openings</a></li>
+                            <li><a href="#">Employee success</a></li>
+                            <li><a href="#">Benefits</a></li>
+                        </ul>
+                    </div> -->
+                    <!-- <iframe src="https://giphy.com/embed/Ga1UmWZ9jdYOc" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gay-rainbow-pride-Ga1UmWZ9jdYOc">via GIPHY</a></p> -->
+                    <div class="col-lg-3 item social"><img src="https://media.giphy.com/media/Ga1UmWZ9jdYOc/giphy.gif"
+                            alt="this slowpoke moves" width="200" />
+                        <p class="copyright">Copyright © Team 8 | Hackathon Pride 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 <script src="src/js/script.js" async></script>
