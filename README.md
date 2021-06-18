@@ -287,10 +287,10 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 ### Content
 * All code was written and edited by team 8 from [Code Institute](https://codeinstitute.net/):
     * [Abi Harrison](https://github.com/Abibubble)
-    * [Keis](https://github.com/KeisGSmit)
-    * [Luana](https://github.com/luziandrade)
     * [Erik Englund](https://github.com/EnglundE)
-    * [Manni](https://github.com/manni8436)
+    * [Keis Smit](https://github.com/KeisGSmit)
+    * [Luana](https://github.com/luziandrade)
+    * [Manni Silva](https://github.com/manni8436)
 
 ### Media
 * WHO OWNS ANY MEDIA ON THE SITE, SUCH AS IMAGES AND VIDEOS
