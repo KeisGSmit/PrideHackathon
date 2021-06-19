@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
     width: 100%;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .gradient-rainbow {
@@ -41,7 +42,7 @@ body {
 
 .pride-flag-date {
     position: relative;
-    margin-top: -37%;
+    margin-top: -31.5%;
     margin-left: 46%;
     color: white;
     background-color: black;
@@ -68,6 +69,12 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: xxx-large;
+}
+
+@media screen and (max-width: 1400px) {
+    .pride-flag-date {
+        margin-top: -37%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
