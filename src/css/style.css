@@ -11,6 +11,18 @@ body {
     linear-gradient(270deg, #35adce, transparent 30%);
 }
 
+#rainbowflag {
+    height: 500px;
+    width: 85%;
+    margin: 20px 100px;
+}
+
+#carousel {
+    height: 500px;
+    width: 85%;
+    margin: 50px 100px;
+}
+
 .pride-flag-circle {
   border-radius: 50%;
   border: 2px solid white;
