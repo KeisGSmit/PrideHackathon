@@ -41,12 +41,13 @@ body {
 }
 
 .footer-clean {
-  padding: 50px 0;
+  padding: 25px 0;
   background-color: #fff;
   color: #4b4c4d;
 }
 
 .footer-clean h3 {
+  padding-top: 25px;
   margin-top: 0;
   margin-bottom: 12px;
   font-weight: bold;
@@ -68,16 +69,30 @@ body {
 }
 
 .footer-clean ul a:hover {
-  opacity: 1;
+  color: orange;
 }
 
 .footer-clean .item.social {
-  text-align: right;
+  text-align: center;
 }
 
-.jumbotron{
-    height: 100vh;
+.footer_photo {
+  padding-top: 10px;
+  background: url("../img/pride_group.png");
+  width: 450px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.jumbotron {
+  height: 100vh;
+}
+
+.social img {
+  width: 200px;
+}
+
 /* media queries */
 @media (max-width: 767px) {
   .footer-clean .item {
