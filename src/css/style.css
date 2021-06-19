@@ -15,23 +15,37 @@ body {
     background-image: linear-gradient(135deg, #EB5F8E, transparent 70%), linear-gradient(45deg, #FE981D, #FCC31E,#35ADCE 85%), linear-gradient(135deg,#EB5F8E,#FCC31E,#35ADCE), linear-gradient(270deg, #35ADCE, transparent 30%);
 }
 
+.text-background {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .pride-flag-circle {
     border-radius: 50%;
     border: 2px solid white;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .pride-flag-date {
     position: relative;
-    top: 40px;
-    left: 25px;
+    margin-top: -37%;
+    margin-left: 46%;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10%;
 }
 
-.align-items-start {
+.info-row {
     height: fit-content;
     min-height: 150px;
     margin-bottom: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .hide {
@@ -46,4 +60,29 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: xxx-large;
+}
+
+@media screen and (max-width: 1200px) {
+    .pride-flag-date {
+        margin-top: -45%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .pride-flag-date {
+        margin-top: -62%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pride-flag-date {
+        margin-top: -66px;
+        margin-left: 45%;
+        padding: 5px;
+    }
+
+    .pride-flag-circle {
+        width: 100px;
+        height: 100px;
+    }
 }
