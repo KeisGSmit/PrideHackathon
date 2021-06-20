@@ -305,7 +305,7 @@ We tested our website using Google DevTools [Lighthouse](https://developers.goog
 ### Media
 * [The Pride flag](https://www.them.us/story/ipride-flag-redesign-black-brown-trans-pride-stripes) was found on this site.
 * The carousel images were found [here](https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80), [here](https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80), and [here](https://images.unsplash.com/photo-1620120966883-d977b57a96ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80).
-* [The Pride flag gif](https://giphy.com/gifs/gay-rainbow-pride-Ga1UmWZ9jdYOc) was found on Giphy by @Evahill.
+* [The Pride flag gif](https://giphy.com/gifs/gay-rainbow-pride-Ga1UmWZ9jdYOc) was found on Giphy by [Evahill](https://giphy.com/evahill).
 
 ### Acknowledgements
 * Our mentor, [Maria](https://github.com/maria-ci), at [Code Institute](https://codeinstitute.net/), for continuous helpful feedback and support.
