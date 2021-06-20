@@ -11,7 +11,7 @@
 
 This site is an information site about the history of the LGBTQ+ movement. 
 It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. 
-It was created for an LGBTQ+ themed Hackathon with [Code Institute](https://codeinstitute.net/) in June 2021.
+It was created for an LGBTQ+ themed proud-coders Hackathon with [Code Institute](https://codeinstitute.net/) in June 2021.
 
 ![Final project image home page](assets/docs/finalpage.png)
 
@@ -61,31 +61,31 @@ It was created for an LGBTQ+ themed Hackathon with [Code Institute](https://code
 ---
 ## User Experience (UX)
 ### Initial Discussion
-WHAT I WANTED FROM THIS PROJECT
+For the proud-coders Hackathon, we were asked to contribute to finding solutions that amplify LGBTQ+ voices, connect the community, that educate others, that support the needs of LGBT+ people. The overall objective was to build something that promotes and celebrates the LGBTQ+ community. We spoke to friends of ours who are in the LGBTQ+ community, and there was an overall feeling that many of them didn't know the history of Pride.
 
 ### User Stories
 #### Client Goals
-* WHAT THE CLIENT WANTS, NOT THE USER
+* To learn more about the history of Pride, and the momentous steps that were taken up to the present day.
 
 #### First Time Visitor Goals
-* WHAT A FIRST TIME VISITOR WANTS, LIKE EASY TO UNDERSTAND, EASY TO NAVIGATE
+* It should be easy to understand how to use the site.
+* The information should be clear to read.
 
 #### Returning Visitor Goals
-* LIKE REPLAYABILITY, WHY THEY WANT TO RETURN TO THE SITE, EXTRA FEATURES
-
-#### Frequent Visitor Goals
-* WHY SOMEONE WOULD COME BACK REPEATEDLY, AND WHAT THEY'D WANT, LIKE EASY TO BOOK SOMETHING, OR A SCOREBOARD, ETC.
+* The site should look good, so a user would feel happy to show their friends.
 
 ---
 ## Design
 ### Color Scheme
-* We used a rainbow color scheme to fit with the theme of Pride, using black and white for other areas so as to not overwhelm the user.
+* We used a rainbow color scheme to fit with the theme of Pride, using black and white for other areas so as to not overwhelm the user. We also used black with a low opacity to help the text pop from the background more.
 
 ### Typography
-* WHAT FONT AND WHY
+* We used the Arial, Helvetica, sans-serif font-family, as we knew it wouldn't cause any issues across browsers, as they're standard fonts.
+* This font-family is also easy to read, and allows the text to be easily legible for all users.
 
 ### Imagery
-* WHAT IMAGES ARE USED AND WHY
+* We only used one image in this project - the up to date Pride flag.
+* This was to link with the theme of the Hackathon, as well as supporting all of those in the LGBTQ+ movement.
 
 ### Wireframes
 [Here are the wireframes for desktop, mobile and tablet for this project](assets/docs/wireframes.pdf).
@@ -93,10 +93,9 @@ WHAT I WANTED FROM THIS PROJECT
 ### Features
 * There is a copyright function at the bottom that audomatically updates to the current year.
 * There is a hide / show function to show or hide the information for each date on click.
-* WHAT FEATURES ARE ONE THE SITE, LIKE SCOREBOARD, FUNCTIONS, SCROLLING ALERT BAR, ETC.
 
 ### Audio
-* WHAT AUDIO IS USED (IF ANY) AND WHY.
+* No audio is used on this site.
 ---
 
 ## Technologies Used
@@ -179,20 +178,22 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 
 ### Testing User Stories
 #### Client Goals
-##### GOAL
-* HOW THE SITE COMPLETEES EACH GOAL
+##### To learn more about the history of Pride, and the momentous steps that were taken up to the present day.
+* Each main moment of the Pride movement in the USA has been included, with information about each event.
 
 #### First Time Visitor Goals
-##### GOAL
-* HOW THE SITE COMPLETEES EACH GOAL
+##### It should be easy to understand how to use the site.
+* Everything is easy to view on the main page.
+* We have included a small instruction at the top, of how to view the information.
+
+##### The information should be clear to read.
+* All information is white text on a black transprent background, making the text clear to read.
+* We have also used a standard font-family, so users won't be distracted by the font.
 
 #### Returning Visitor Goals
-##### GOAL
-* HOW THE SITE COMPLETEES EACH GOAL
-
-#### Frequent Visitor Goals
-##### GOAL
-* HOW THE SITE COMPLETES EACH GOAL
+##### The site should look good, so a user would feel happy to show their friends.
+* The site has an attractive background rainbow, and a rainbow as the header.
+* The layout is appealing, whilst also being simple so as to not over-clutter the screen.
 
 #### Desktop / Laptop
 1. Google Chrome
@@ -245,15 +246,15 @@ The website was viewed on a variety of devices, including:
 * Samsung A20
 * xBox One
 
-A large amount of testing was done to ensure that all pages were visible or hidden correctly, all buttons worked as they should, and the site worked as it should.
+A large amount of testing was done to ensure that all information was visible or hidden correctly, and all functions worked as they should.
 Friends, family members, and other developers were asked to review the site and documentation to point out any bugs and/or user experience issues that they came across.
 
 ### Solved Bugs
-1. WHAT THE BUG IS
-    * WHAT STEPS I TOOK TO FIX IT
+* FIT-CONTENT FIREFOX -moz-
 
 ### Known Bugs
-* ANY BUGS LEFT IN THE CODE AFTER FINAL DEPLOYMENT, FOR FIXING IN FUTURE RELEASES
+* No bugs have been knowingly left in this site.
+* If you find any bugs, please contact one of the team on our GitHub links below.
 
 ### Lighthouse
 We tested our website using DevTools Lighthouse feature, and got these results:
@@ -281,9 +282,6 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 ### Code
 * ANY CODE I USED FROM OTHER PEOPLE OR SITES AND WHO IT'S FROM, INCLUDING CREDITING ANYONE WHO HELPED ME FIX BUGS
 
-### Audio
-* WHO OWNS THE AUDIO AND WHO EDITED THE AUDIO
-
 ### Content
 * All code was written and edited by team 8 from [Code Institute](https://codeinstitute.net/):
     * [Abi Harrison](https://github.com/Abibubble)
@@ -294,7 +292,7 @@ We tested our website using DevTools Lighthouse feature, and got these results:
 * Code from Bootstrap was also used to create a fully responsive site in a short space of time.
 
 ### Media
-* WHO OWNS ANY MEDIA ON THE SITE, SUCH AS IMAGES AND VIDEOS
+* [The Pride flag](https://www.them.us/story/ipride-flag-redesign-black-brown-trans-pride-stripes) was found on this site.
 
 ### Acknowledgements
 * Our mentor, [Maria](https://github.com/maria-ci), at [Code Institute](https://codeinstitute.net/), for continuous helpful feedback and support.
