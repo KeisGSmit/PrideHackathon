@@ -250,7 +250,7 @@ A large amount of testing was done to ensure that all information was visible or
 Friends, family members, and other developers were asked to review the site and documentation to point out any bugs and/or user experience issues that they came across.
 
 ### Solved Bugs
-* No interesting bugs were found during the creation of this site.
+* FIT-CONTENT FIREFOX -moz-
 
 ### Known Bugs
 * No bugs have been knowingly left in this site.
