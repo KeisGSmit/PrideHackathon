@@ -250,7 +250,12 @@ A large amount of testing was done to ensure that all information was visible or
 Friends, family members, and other developers were asked to review the site and documentation to point out any bugs and/or user experience issues that they came across.
 
 ### Solved Bugs
-* FIT-CONTENT FIREFOX -moz-
+1. The proper layout design wasn't showing for one of our developers.
+    * We checked that he had the latest pull of the repo.
+    * We used DevTools to check his code was being included properly.
+    * We could see that width and height: fit-content weren't being accepted on his browser.
+    * As he was using Firefox, we checked on [CanIUse](https://caniuse.com/?search=fit-content) to find out the correct prefixes to make this work on Firefox.
+    * We then added in a -moz- prefix, which fixed this bug.
 
 ### Known Bugs
 * No bugs have been knowingly left in this site.
