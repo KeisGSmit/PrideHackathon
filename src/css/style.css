@@ -166,15 +166,17 @@ body {
 .footer_photo-img{
   margin-top: 90px;
   width: 100%;
-  height: 80px;
-}
-
-.jumbotron {
-  height: 120vh;
+  height: 70px;
 }
 
 .social-img {
   width: 200px;
+}
+
+/* ------------------------------------------------------------------------ Community page */
+
+.jumbotron {
+  height: 120vh;
 }
 
 /* ------------------------------------------------------------------------ Media queries */
