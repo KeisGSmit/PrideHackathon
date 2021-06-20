@@ -9,18 +9,17 @@ function copyrightYear() {
 copyrightYear();
 
 // ---------------------------------------------------------- Hide / Show info function
-// onclick="buttonInfo('1', this)"
 
 function buttonInfo(num, clickedItem) {
     if (num == "1") {
-        let fullInfo = clickedItem.parentNode.children[2];
+        let fullInfo = clickedItem.parentNode.children[2].children[0];
         if (fullInfo.classList.contains("hide")) {
             fullInfo.classList.remove("hide");
         } else {
             fullInfo.classList.add("hide");
         }
     } else if (num == "2") {
-        let fullInfo = clickedItem.parentNode.children[0];
+        let fullInfo = clickedItem.parentNode.children[0].children[0];
         if (fullInfo.classList.contains("hide")) {
             fullInfo.classList.remove("hide");
         } else {
