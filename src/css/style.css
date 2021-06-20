@@ -102,11 +102,6 @@ body {
   display: none;
 }
 
-h2 {
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
 .header-h2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -114,6 +109,8 @@ h2 {
   background: -webkit-linear-gradient(#fe981d, #fcc31e, #35adce 85%),
     linear-gradient(135deg, #eb5f8e, #fcc31e, #35adce),
     linear-gradient(270deg, #35adce, transparent 30%);
+  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.5rem;
 }
