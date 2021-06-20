@@ -11,16 +11,10 @@ body {
     linear-gradient(270deg, #35adce, transparent 30%);
 }
 
-#rainbowflag {
-    height: 500px;
-    width: 85%;
-    margin: 20px 100px;
-}
-
 #carousel {
-    height: 500px;
-    width: 85%;
-    margin: 50px 100px;
+    height: 85vh;
+    width: 100%;
+    margin: auto;
 }
 
 .pride-flag-circle {
@@ -89,6 +83,19 @@ body {
 
 .jumbotron{
     height: 100vh;
+}
+
+/* align Bootstrap carousel:*/
+
+.carousel-inner img {
+    margin: auto;
+    width: 100vw;
+  	height: 75vh;
+
+}
+
+.carousel-item{
+  width: auto;
 }
 /* media queries */
 @media (max-width: 767px) {
