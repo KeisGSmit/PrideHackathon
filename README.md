@@ -89,7 +89,7 @@ For the proud-coders Hackathon, we were asked to contribute to finding solutions
 * We used basic backgrounds in bright colors for the carousel, to link with the Pride rainbow.
 
 ### Wireframes
-[Here are the wireframes for desktop, mobile and tablet for this project](src/docs/wireframes.pdf).
+[Here is the wireframe for desktop for this project](src/docs/wireframes.pdf).
 
 ### Features
 * There is a copyright function at the bottom that audomatically updates to the current year.
