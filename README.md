@@ -13,7 +13,7 @@ This site is an information site about the history of the LGBTQ+ movement.
 It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. 
 It was created for an LGBTQ+ themed proud-coders Hackathon with [Code Institute](https://codeinstitute.net/) in June 2021.
 
-![Final project image home page](assets/docs/finalpage.png)
+![Final project image home page](src/docs/finalpage.png)
 
 ## Contents
 
@@ -84,8 +84,9 @@ For the proud-coders Hackathon, we were asked to contribute to finding solutions
 * This font-family is also easy to read, and allows the text to be easily legible for all users.
 
 ### Imagery
-* We only used one image in this project - the up to date Pride flag.
-* This was to link with the theme of the Hackathon, as well as supporting all of those in the LGBTQ+ movement.
+* We only used the up to date Pride flag in the date circles, to link with the theme of the Hackathon, as well as supporting all of those in the LGBTQ+ movement.
+* We used an animated gif of a pride flag sending out love hearts to show the love that comes with being a part of Pride.
+* We used basic backgrounds in bright colors for the carousel, to link with the Pride rainbow.
 
 ### Wireframes
 [Here are the wireframes for desktop, mobile and tablet for this project](assets/docs/wireframes.pdf).
@@ -93,6 +94,7 @@ For the proud-coders Hackathon, we were asked to contribute to finding solutions
 ### Features
 * There is a copyright function at the bottom that audomatically updates to the current year.
 * There is a hide / show function to show or hide the information for each date on click.
+* There is also an embedded Spotify player on the Community page, with podcasts on relating to the LGBTQ+ Community.
 
 ### Audio
 * No audio is used on this site.
@@ -108,19 +110,21 @@ For the proud-coders Hackathon, we were asked to contribute to finding solutions
 #### Bootstrap
 [Bootstrap](https://getbootstrap.com/) was used to help us quickly design a good looking responsive site.
 #### Git:
-Git was used for version control by utilizing the Gitpod terminal to add and commit to Git and push to GitHub.
+[Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to add and commit to Git and push to GitHub.
 #### GitHub:
-GitHub is used to store the code for this project after being pushed from Git.
+[GitHub](https://github.com/) is used to store the code for this project after being pushed from Git.
 #### Balsamiq:
-Balsamiq was used to create the wireframes during the design process.
+[Balsamiq](https://balsamiq.com/) was used to create the wireframes during the design process.
 #### Responsinator:
 [Responsinator](http://www.responsinator.com/) was used to help improve the responsive design on a variety of devices.
 #### Google DevTools:
-Google DevTools was used to help us find what code correlated to which feature.
+[Google DevTools](https://developer.chrome.com/docs/devtools/) was used to help us find what code correlated to which feature.
 #### Am I Responsive Design:
-[Am I Responsive Design](http://ami.responsivedesign.is/#) was used to check the responsive design of the quiz.
+[Am I Responsive Design](http://ami.responsivedesign.is/#) was used to check the responsive design of the site, and to create the final site image.
 #### Shields.io:
 [Shields.io](https://shields.io/) was used to create the GitHub badges for this README.md file.
+#### Lighthouse:
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to ensure that our code was as performant as possible, confirming to best practices, and SEO and Accessibility guidelines.
 
 ## Deployment
 ### Initial Deployment
@@ -167,13 +171,15 @@ For a more detailed version of these steps, go to the [Github Docs](https://docs
 The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the project to ensure there were no syntax errors within the site.
 
 1. W3C Markup Validator
-    * [HTML Results](LINK)
+    * [HTML Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkeisgsmit.github.io%2FPrideHackathon%2F)
 
 2. W3C CSS Validator
-    * [CSS Results](LINK)
+    * [CSS Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkeisgsmit.github.io%2FPrideHackathon%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * There is one error showing up, which is "text is not a background-clip value : text". This is a common validation error, and when we did research into this, it was common knowledge that it should be ignored, because text is a valid background-clip value.
 
 3. JSHint
     * [JSHint](https://jshint.com/)
+    ![JSHint Results](src/docs/jshint.png)
 
 
 ### Testing User Stories
@@ -225,21 +231,16 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 ### Further Testing
 The website was tested on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet browsers. We did not test on Internet Explorer, as it has now been depreciated in favour of Microsoft Edge.
 The website was viewed on a variety of devices, including:
-* Custom built desktop PC, running Windows 10
 * Acer Aspire V Nitro Laptop, running Windows 10
 * Lenovo B51 IntelCore i7 Laptop, running Ubuntu 16.04 LTS
 * MacBook Pro (15-inch, 2017), running macOS Catalina
 * MacBookAir7,2 (13-inch, 2017)
 * iPad 6,11 5th generation, running iOS 10.3
-* Amazon Fire tablet 7
-* iPhone 7
 * iPhone X
 * iPhone 12
 * OPPO Find X2
 * OPPO Find X2 Lite
-* Samsung Galaxy A70
 * Samsung Galaxy S9
-* Samsung Galaxy S10+
 * Samsung A20
 * xBox One
 
@@ -259,7 +260,7 @@ Friends, family members, and other developers were asked to review the site and 
 * If you find any bugs, please contact one of the team on our GitHub links below.
 
 ### Lighthouse
-We tested our website using DevTools Lighthouse feature, and got these results:
+We tested our website using Google DevTools [Lighthouse](https://developers.google.com/web/tools/lighthouse) feature, and got these results:
 
 #### Desktop
 ![Lighthouse desktop first try](src/docs/lighthousedesktop.png)

@@ -26,6 +26,6 @@ function buttonInfo(num, clickedItem) {
             fullInfo.classList.add("hide");
         }
     } else {
-        console.log("Oh no! There has been an error! Try again.")
+        console.log("Oh no! There has been an error! Try again.");
     }
 }
