@@ -5,24 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DESCRIPTION">
-    <meta name="keywords" content="KEYWORDS">
+    <meta name="description" content="A site to detail the history of the LGBTQ+ movement.">
+    <meta name="keywords"
+        content="LGBTQ+, history, lesbian, gay, bisexual, queer, trans, transgender, asexual, pride, flag, ally">
     <meta name="robots" content="index, follow">
-    <title>LGBT History</title>
     <!-- Social media integration -->
     <!-- Facebook, LinkedIn, Google -->
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="TITLE OF YOUR POST OR PAGE" />
-    <meta property="og:description" content="DESCRIPTION OF PAGE CONTENT" />
+    <meta property="og:title" content="LGBTQ+ History" />
+    <meta property="og:description" content="A site to detail the history of the LGBTQ+ movement." />
     <meta property="og:image" content="src/docs/finalpage.png" />
-    <meta property="og:url" content="PERMALINK" />
-    <meta property="og:site_name" content="SITE NAME" />
+    <meta property="og:url" content="https://keisgsmit.github.io/PrideHackathon/" />
+    <meta property="og:site_name" content="LGBTQ+ History" />
     <!-- Twitter -->
-    <meta name="twitter:title" content="TITLE OF POST OR PAGE">
-    <meta name="twitter:description" content="DESCRIPTION OF PAGE CONTENT">
+    <meta name="twitter:title" content="LGBTQ+ History">
+    <meta name="twitter:description" content="A site to detail the history of the LGBTQ+ movement.">
     <meta name="twitter:image" content="src/docs/finalpage.png">
     <!-- Links -->
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="https://keisgsmit.github.io/PrideHackathon/">
     <link href="src/css/style.css" rel="stylesheet" type="text/css" />
     <!--Bootstrap and popper CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
@@ -34,295 +34,302 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!--Title-->
-    <title>LGBT History</title>
+    <title>LGBTQ+ History</title>
 </head>
 
 <body class="gradient-rainbow">
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="features.html" role="button">Learn more</a>
-        </p>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="rainbowflag">
+                <img src="https://images.unsplash.com/photo-1620120966883-d977b57a96ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80"
+                    class="img-fluid" id="rainbowflag" alt="rainbow pride flag">
+                <div class="carousel-caption ">
+                    <h1>Team Name</h1>
+                    <p>This is why Pride is Important</p>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
+                    class="img-fluid" id="carousel" alt="...">
+                    <div class="carousel-caption ">
+                        <h1>Listen Up!</h1>
+                        <p>
+                            <button type="button" class="btn btn-success" href="features.html">Hear From the Community</button>
+                        </p>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+                    class="img-fluid" id="carousel" alt="pride celebration">
+                <div class="carousel-caption ">
+                    <h1>Happy Pride!</h1>
+                    <p>
+                        From all participants of the Pride Hackathon 2021!
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container pb-2">
         <div class="row">
             <div class="col">
-
-                <h1>LGBT History</h1>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample1" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample1">1924: The first gay rights group is established.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample1">
-                    <div class="card card-body">
-                        <p> World War I veteran Henry Gerber founded the Society for Human Rights in Chicago.
+                <div class="header">
+                    <h1 class="header-h1">LGBTQ+ History</h1>
+                </div>
+                <p>Click each date flag for more information</p>
+                <hr><br>
+                <div class="row info-row align-middle">
+                    <div class="col-4">
+                        <p class="text-background">The first gay rights group is established.</p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('1', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">1924</p>
+                    </div>
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            World War I veteran Henry Gerber founded the Society for Human Rights in Chicago.
                             The group was the first gay rights group in America, and its newsletter, “Friendship
-                            and Freedom,” was the United States’ first recorded gay rights publication.</p>
-                        <p>
-                            After seeing how people with different sexual orientations were treated here, he championed
-                            the plight of gays in American society. In 1917, he was temporarily committed to a mental
-                            institution because of his sexual orientation.
+                            and Freedom,” was the United States’ first recorded gay rights publication.
                         </p>
-
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample2" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample2">January, 1958: The Supreme Court rules in favor of gay
-                        rights.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample2">
-                    <div class="card card-body">
-                        <p>After the U.S. Post Office refused to deliver America’s first widely distributed pro-gay
+                <div class="row info-row align-middle">
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            After the U.S. Post Office refused to deliver America’s first widely distributed pro-gay
                             publication, ONE: The Homosexual Magazine, the case went to the U.S. Supreme Court — and
                             the court ruled in favor of gay rights for the first time, making it a major landmark case
-                            in LGBTQ history.</p>
-                        <p>
-                            One, Inc. v. Olesen, 355 U.S. 371 (1958), was a landmark decision of the US Supreme Court
-                            for LGBT rights in the United States. It was the first U.S. Supreme Court ruling to deal
-                            with homosexuality and the first to address free speech rights with respect to homosexuality
+                            in LGBTQ history.
                         </p>
                     </div>
+                    <div class="col-3" onclick="buttonInfo('2', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">1958</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-background">The Supreme Court rules in favor of gay rights</p>
+                    </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample3" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample3">April 21, 1966: The Mattachine Society organizes a gay
-                        rights “Sip-In.”</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample3">
-                    <div class="card card-body">
-                        <p>During a time when most bars refused to serve gay people, the Mattachine Society,
+                <div class="row info-row align-middle">
+                    <div class="col-4">
+                        <p class="text-background">The Mattachine Society organizes a gay rights “Sip-In.”</p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('1', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">1966</p>
+                    </div>
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            During a time when most bars refused to serve gay people, the Mattachine Society,
                             one of the country’s first gay rights organizations, staged a “Sip-In,” during which
                             activists entered a New York City bar, announced they were gay, ordered drinks, and
-                          waited to be served.</p>                        
-                    </div>
-                </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample4" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample4">June 28, 1969: The Stonewall riots spark the beginning of
-                        the LGBT movement.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample4">
-                    <div class="card card-body">
-                        <p>In the early morning hours on June 28, 1969, police performed a raid of the Stonewall Inn,
-                            a New York City gay bar — and the customers and their supporters took a stand. The event
-                            turned
-                            into a violent protest and led to a days-long series of riots. Those “Stonewall riots” are
-                            largely
-                            considered the start of the LGBTQ civil rights movement in the United States.</p>
-                        <p>
-                            In 1966, gay bars were technically legal in New York but they were often raided by agents of
-                            the State Liquor Authority, which had a regulation against serving homosexuals in bars on
-                            the idea that they were disorderly.
+                            waited to be served.
                         </p>
                     </div>
                 </div>
-
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample4" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample4">June 28, 1969: The Stonewall riots spark the beginning of
-                        the LGBT movement.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample4">
-                    <div class="card card-body">
-                        <p>In the early morning hours on June 28, 1969, police performed a raid of the Stonewall Inn,
+                <div class="row info-row align-middle">
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            In the early morning hours on June 28, 1969, police performed a raid of the Stonewall Inn,
                             a New York City gay bar — and the customers and their supporters took a stand. The event
-                            turned
-                            into a violent protest and led to a days-long series of riots. Those “Stonewall riots” are
-                            largely
-                            considered the start of the LGBTQ civil rights movement in the United States.</p>
+                            turned into a violent protest and led to a days-long series of riots. Those “Stonewall
+                            riots” are
+                            largely considered the start of the LGBTQ civil rights movement in the United States.
+                        </p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('2', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">1969</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-background">The Stonewall riots spark the beginning of the LGBT movement.</p>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample5" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample5">1973: Homosexuality is no longer declared
-                        a mental illness.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample5">
-                    <div class="card card-body">
-                        <p>After years of studies, analysis, and changing cultural attitudes, the
-                            American Psychiatric
-                            Association’s board of directors removed homosexuality from the official
-                            list of mental illnesses,
-                            known as the Diagnostic and Statistical Manual of Mental Disorders, a move
-                            that was upheld with a
-                            vote by the association’s membership.</p>
-                        <p>
-                            In the 1940s and 1950s, U.S. neurologist Walter Freeman popularized the ice-pick lobotomy as
-                            a treatment for homosexuality. He personally performed as many as 3,439 lobotomy
-                            surgeries in 23 states, of which 2,500 used his ice-pick procedure, despite the fact
-                            that he had no formal surgical training. Up to 40% of Freeman's patients were gay
-                            individuals subjected to a lobotomy in order to change their homosexual orientation,
-                            leaving most of these individuals severely disabled for the rest of their lives.
+                <div class="row info-row align-middle">
+                    <div class="col-4">
+                        <p class="text-background">Homosexuality is no longer declared a mental illness.</p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('1', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">1973</p>
+                    </div>
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            After years of studies, analysis, and changing cultural attitudes, the American Psychiatric
+                            Association’s board of directors removed homosexuality from the official list of mental
+                            illnesses,
+                            known as the Diagnostic and Statistical Manual of Mental Disorders, a move that was upheld
+                            with a
+                            vote by the association’s membership.
                         </p>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample6" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample6">April, 2000: Vermont takes a huge step toward same-sex
-                        marriage legalization.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample6">
-                    <div class="card card-body">
-                        <p>Vermont became the first state in the country to give same-sex couples the right to enter
-                            into civil unions — legal partnerships which would grant those couples the same rights and
-                            benefits as those
-                            in legal marriages. The 79-to-68 vote to create civil unions set off sighs of relief, tears
-                            and hugs among the three same-sex couples whose 1997 lawsuit seeking the right to marry led
-                            to this moment.</p>
-
-                        <p>That law extended almost all of the benefits and responsibilities of civil marriage to
-                            same-sex couples joined in civil union. These benefits included the ability to dissolve a
-                            civil union in court using the same procedures and laws as for divorce. Those civil unions
-                            continue to be recognized in Vermont, and couples joined in civil union have access to
-                            Vermont's family court in the event that they break up.</p>
+                <div class="row info-row align-middle">
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            Vermont became the first state in the country to give same-sex couples the right to enter
+                            into civil unions
+                            — legal partnerships which would grant those couples the same rights and benefits as those
+                            in legal marriages.
+                        </p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('2', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">2000</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-background">Vermont takes a huge step toward same-sex marriage legalization.</p>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample7" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample7">October, 2009: The Matthew Shepard & James Byrd Jr. Hate
-                        Crimes Prevention Act becomes a law.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample7">
-                    <div class="card card-body">
-                        <p>President Obama signed the Matthew Shepard and James Byrd, Jr. Hate Crimes Prevention Act
-                            into law. The act was named for two men who were murdered in hate crimes — Matthew Shepard
-                            because he
-                            was gay, and James Byrd, Jr. because he was black. The new law expanded previous hate crime
+                <div class="row info-row align-middle">
+                    <div class="col-4">
+                        <p class="text-background">The Matthew Shepard & James Byrd Jr. Hate Crimes Prevention Act
+                            becomes a law.</p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('1', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">2009</p>
+                    </div>
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            President Obama signed the Matthew Shepard and James Byrd, Jr. Hate Crimes Prevention Act
+                            into law.
+                            The act was named for two men who were murdered in hate crimes — Matthew Shepard because he
+                            was gay,
+                            and James Byrd, Jr. because he was black. The new law expanded previous hate crime
                             legislation to officially
                             categorize crimes motivated by actual or perceived gender, sexual orientation, gender
-                            identity, or disability as hate crimes.</p>
-
-                        <p><em>You understood that we must stand against crimes that are meant not only to break bones,
-                                but
-                                to break spirits -- not only to inflict harm, but to instill fear</em> - Obama 2009.
-                            Noting
-                            reports of 12,000 crimes based on sexual orientation over the past 10 years, Obama called
-                            the bill another step in the continuing struggle for protecting human rights</p>
+                            identity, or disability as hate crimes.
+                        </p>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample8" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample8">January, 2015: President Obama acknowledges the LGBTQ
-                        community in the State of the Union address.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample8">
-                    <div class="card card-body">
-                        <p>For the first time in U.S. history, the words “lesbian,” “bisexual,” and “transgender,” were
+                <div class="row info-row align-middle">
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            For the first time in U.S. history, the words “lesbian,” “bisexual,” and “transgender,” were
                             used in the president’s State of the Union address,
                             when President Obama mentioned that, as Americans, we “respect human dignity” and condemn
-                            the persecution of minority groups. The remarks were a surprise, but not entirely unexpected
-                            for a president who has made GLBTQ rights a quiet but consistent focus of his tenure in
-                            office.</p>
-                        <p>And he also called gay marriage a "civil right," in the wake of the Supreme Court's decision
-                            to take up the issue once and for all. Almost 2.8 billion people are living in countries
-                            where identifying as gay could lead to imprisonment, corporal punishment or even death. In
-                            stark contrast, only 780 million people are living in countries where same-sex marriage or
-                            civil unions are a legal right.</p>
+                            the persecution of minority groups.
+                        </p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('2', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">2015</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-background">President Obama acknowledges the LGTBQ community in the State of the
+                            Union address.</p>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample9" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample9">April, 2015: Obama calls for end to conversion
-                        therapy.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample9">
-                    <div class="card card-body">
-                        <p>After the tragic suicide of a transgender teenager who was subjected to Christian conversion
+                <div class="row info-row align-middle">
+                    <div class="col-4">
+                        <p class="text-background">Obama calls for end to conversion therapy.</p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('1', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">2015</p>
+                    </div>
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            After the tragic suicide of a transgender teenager who was subjected to Christian conversion
                             therapy, President Obama publicly called for an end to the dangerous practice meant to
                             change
-                            people's sexual orientation or gender identities. Obama's statement was in response to an
-                            online petition calling for a ban on conversion therapies. It gained over 120,000 signatures
-                            in three months</p>
-                        <p>The petition was inspired by Leelah Alcorn, a 17-year-old transgender youth who killed
-                            herself in December 2014. Counselling and prayer is used in conversion therapy to help some
-                            Christians deal with gay feelings. But mental health groups and gay rights activists say it
-                            can increase the risk of depression or suicide</p>
-
-
+                            people's sexual orientation or gender identities.
+                        </p>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample10" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample10">June 26, 2015: Love wins.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample10">
-                    <div class="card card-body">
-                        <p>The Supreme Court finally and officially declared same-sex marriage a Constitutional right
-                            nationwide, meaning all states must allow Americans to get married, regardless of their
-                            gender or sexual
-                            orientation. The decision was 5-4. </p>
-                        <p></p>
+                <div class="row info-row align-middle">
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            The Supreme Court finally and officially declared same-sex marriage a Constitutional right
+                            nationwide,
+                            meaning all states must allow Americans to get married, regardless of their gender or sexual
+                            orientation.
+                        </p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('2', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">2015</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-background">Love wins.</p>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample11" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample11">May, 2016: The Stonewall Inn will become a national
-                        monument.</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample11">
-                    <div class="card card-body">
-                        <p>The Obama administration announced that they are preparing to designate New York’s Stonewall
-                            Inn, the site of those historic riots in 1969, the first-ever national monument dedicated to
-                            gay
-                            rights.</p>
+                <div class="row info-row align-middle">
+                    <div class="col-4">
+                        <p class="text-background">The Stonewall Inn will become a national monument.</p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('1', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">2016</p>
+                    </div>
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            The Obama administration announced that they are preparing to designate New York’s Stonewall
+                            Inn,
+                            the site of those historic riots in 1969, the first-ever national monument dedicated to gay
+                            rights.
+                        </p>
                     </div>
                 </div>
-                <p>
-                    <a class="btn btn-primary d-flex justify-content-center text-wrap" data-bs-toggle="collapse"
-                        href="#multiCollapseExample12" role="button" aria-expanded="false"
-                        aria-controls="multiCollapseExample12">May, 2019: New York City will honor LGBTQ activists
-                        Marsha P. Johnson and Sylvia Rivera with monuments</a>
-                </p>
-                <div class="collapse multi-collapse pb-2" id="multiCollapseExample12">
-                    <div class="card card-body">
-                        <p>Just ahead of Pride 2019, New York City announced it will erect a monument in Greenwich
+                <div class="row info-row align-middle">
+                    <div class="col-5">
+                        <p class="text-background hide">
+                            Just ahead of Pride 2019, New York City announced it will erect a monument in Greenwich
                             village dedicated to Marsha P. Johnson and Sylvia Rivera, activists who played critical
                             roles in both the Stonewall riots and the NYC queer scene in general. The two started
                             Street Transvestite Action Revolutionaries (S.T.A.R.) in 1970, an organization dedicated
                             to helping LGBTQ people experiencing homelessness. The monument will commemorate the 50th
-                            anniversary of the Stonewall riots, according to the New York Times.</p>
+                            anniversary of the Stonewall riots, according to the New York Times.
+                        </p>
+                    </div>
+                    <div class="col-3" onclick="buttonInfo('2', this)">
+                        <img src="src/img/pride-flag.jpeg" alt="The current Pride flag" class="pride-flag-circle">
+                        <p class="pride-flag-date">2019</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-background">New York City will honor LGBTQ activists Marsha P. Johnson and Sylvia
+                            Rivera with monuments</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="footer-clean">
         <footer>
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col-sm-4 col-md-3 item">
-                        <h3>Team's Name</h3>
-                        <ul>
-                            <!-- <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li> -->
-                        </ul>
+                        <h3>Project's Name</h3>
+                        <div class='footer_photo'>
+                            <img src="src/img/pride_group.png" alt="Event style">
+                        </div>
                     </div>
                     <div class="col-sm-4 col-md-3 item">
                         <h3>Want to know more?</h3>
                         <h3>Here are some helpful projects</h3>
                         <ul>
-                            <li><a href="https://www.thetrevorproject.org/" target="blank">The Trevor Project</a></li>
-                            <li><a href="https://ilga.org/" target="blank">Ilga</a></li>
-                            <li><a href="https://www.movilh.cl/" target="blank">Movilh</a></li>
-                            <li><a href="https://outrightinternational.org/" target="blank">OutRight</a></li>
+                            <li><a href="https://www.thetrevorproject.org/" target="blank">The Trevor Project | Saving
+                                    Young LGBTQ Lives </a></li>
+                            <li><a href="https://ilga.org/" target="blank">Ilga | Working towards equality and human
+                                    rights</a></li>
+                            <li><a href="https://www.movilh.cl/" target="blank">Movilh | El Movimiento de Integración y
+                                    Liberación Homosexual</a></li>
+                            <li><a href="https://outrightinternational.org/" target="blank">OutRight | Organization that
+                                    addresses human rights violations and abuses against lesbian, gay, bisexual,
+                                    transgender and intersex people.</a></li>
                         </ul>
                     </div>
                     <!-- <div class="col-sm-4 col-md-3 item">
@@ -334,8 +341,8 @@
                         </ul>
                     </div> -->
                     <!-- <iframe src="https://giphy.com/embed/Ga1UmWZ9jdYOc" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gay-rainbow-pride-Ga1UmWZ9jdYOc">via GIPHY</a></p> -->
-                    <div class="col-lg-3 item social"><img src="https://media.giphy.com/media/Ga1UmWZ9jdYOc/giphy.gif"
-                            alt="this slowpoke moves" width="200" />
+                    <div class="col-lg-3 item social">
+                        <img src="https://media.giphy.com/media/Ga1UmWZ9jdYOc/giphy.gif" alt="this slowpoke moves" />
                         <p class="copyright">Copyright © Team 8 | Hackathon Pride 2021</p>
                     </div>
                 </div>

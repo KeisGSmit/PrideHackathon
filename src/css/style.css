@@ -1,6 +1,14 @@
+html, body {
+    min-height: 100%;
+    overflow: auto;
+}
+
 body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .gradient-rainbow {
@@ -11,17 +19,56 @@ body {
     linear-gradient(270deg, #35adce, transparent 30%);
 }
 
+#carousel {
+    height: 85vh;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.text-background {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .pride-flag-circle {
-  border-radius: 50%;
-  border: 2px solid white;
-  width: 100px;
-  height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
 }
 
 .pride-flag-date {
-  position: relative;
-  top: 40px;
-  left: 25px;
+    position: relative;
+    margin-top: -31.5%;
+    margin-left: 46%;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.info-row {
+    height: fit-content;
+    height: -moz-fit-content;
+    min-height: 150px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .hide {
@@ -41,12 +88,13 @@ body {
 }
 
 .footer-clean {
-  padding: 50px 0;
+  padding: 25px 0;
   background-color: #fff;
   color: #4b4c4d;
 }
 
 .footer-clean h3 {
+  padding-top: 25px;
   margin-top: 0;
   margin-bottom: 12px;
   font-weight: bold;
@@ -68,17 +116,78 @@ body {
 }
 
 .footer-clean ul a:hover {
-  opacity: 1;
+  color: orange;
 }
 
 .footer-clean .item.social {
-  text-align: right;
+  text-align: center;
 }
 
-.jumbotron{
-    height: 100vh;
+.footer_photo  img{
+  padding-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.jumbotron {
+  height: 120vh;
+}
+
+.social img {
+  width: 200px;
+}
+
+/* align Bootstrap carousel:*/
+
+.carousel-inner img {
+    margin: auto;
+    width: 100vw;
+  	height: 75vh;
+
+}
+
+.carousel-item{
+  width: auto;
 }
 /* media queries */
+@media (max-width: 1024px){
+  .jumbotron {
+  height: 80%;
+  }
+}
+@media (max-width: 768px){
+  .jumbotron {
+  height: 90%;
+  }
+}
+@media (max-width: 411px){
+  .jumbotron {
+  height: 115vh;
+  }
+}
+@media (max-width: 376px){
+  .jumbotron {
+  height: 130%;
+  }
+}
+@media (max-width: 361px){
+  .jumbotron {
+  height: 130vh;
+  }
+}
+@media (max-width: 320px){
+  .jumbotron {
+  height: 150vh;
+  }
+}
+@media (max-width: 280px){
+  .jumbotron {
+  height: 130vh;
+  }
+}
+
+
+}
 @media (max-width: 767px) {
   .footer-clean .item {
     text-align: center;
@@ -95,4 +204,42 @@ body {
 .footer-clean .copyright {
   font-size: 13px;
   opacity: 0.6;
+}
+.header-h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(#FE981D, #FCC31E,#35ADCE 85%), linear-gradient(135deg,#EB5F8E,#FCC31E,#35ADCE), linear-gradient(270deg, #35ADCE, transparent 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xxx-large;
+}
+
+@media screen and (max-width: 1400px) {
+    .pride-flag-date {
+        margin-top: -37%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .pride-flag-date {
+        margin-top: -45%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .pride-flag-date {
+        margin-top: -62%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pride-flag-date {
+        margin-top: -66px;
+        margin-left: 45%;
+        padding: 5px;
+    }
+
+    .pride-flag-circle {
+        width: 100px;
+        height: 100px;
+    }
 }
