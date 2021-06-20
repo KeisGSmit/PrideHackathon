@@ -24,6 +24,7 @@ body {
     margin-bottom: 2rem;
     margin-top: 2rem;
     width: fit-content;
+    width: -moz-fit-content;
 }
 
 .text-background {
@@ -47,12 +48,14 @@ body {
     color: white;
     background-color: black;
     width: fit-content;
+    width: -moz-fit-content;
     padding: 10px;
     border-radius: 10%;
 }
 
 .info-row {
     height: fit-content;
+    height: -moz-fit-content;
     min-height: 150px;
     margin-bottom: 25px;
     display: flex;
