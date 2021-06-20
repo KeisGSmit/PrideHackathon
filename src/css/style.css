@@ -11,6 +11,12 @@ body {
     linear-gradient(270deg, #35adce, transparent 30%);
 }
 
+#carousel {
+    height: 85vh;
+    width: 100%;
+    margin: auto;
+}
+
 .pride-flag-circle {
   border-radius: 50%;
   border: 2px solid white;
@@ -93,6 +99,18 @@ body {
   width: 200px;
 }
 
+/* align Bootstrap carousel:*/
+
+.carousel-inner img {
+    margin: auto;
+    width: 100vw;
+  	height: 75vh;
+
+}
+
+.carousel-item{
+  width: auto;
+}
 /* media queries */
 @media (max-width: 767px) {
   .footer-clean .item {
