@@ -179,7 +179,8 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 
 3. JSHint
     * [JSHint](https://jshint.com/)
-    ![JSHint Results](src/docs/jshint.png)
+
+![JSHint Results](src/docs/jshint.png)
 
 
 ### Testing User Stories
