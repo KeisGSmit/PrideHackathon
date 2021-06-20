@@ -205,10 +205,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 3. Mozilla Firefox
     * All tested and working correctly.
 
-4. Internet Explorer
-    * All tested and working correctly.
-
-5. Safari
+4. Safari
     * All tested and working correctly.
 
 #### Tablet
@@ -226,7 +223,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
     * All tested and working correctly.
 
 ### Further Testing
-The website was tested on Google Chrome, Firefox, Internet Explorer, Microsoft Edge, Safari and Samsung Internet browsers.
+The website was tested on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet browsers. We did not test on Internet Explorer, as it has now been depreciated in favour of Microsoft Edge.
 The website was viewed on a variety of devices, including:
 * Custom built desktop PC, running Windows 10
 * Acer Aspire V Nitro Laptop, running Windows 10
@@ -265,27 +262,34 @@ Friends, family members, and other developers were asked to review the site and 
 We tested our website using DevTools Lighthouse feature, and got these results:
 
 #### Desktop
-![Lighthouse desktop first try](assets/docs/lighthouse.png)
+![Lighthouse desktop first try](src/docs/lighthousedesktop.png)
 
 #### Mobile
-![Lighthouse mobile first try](assets/docs/lighthousemobile.png)
+![Lighthouse mobile first try](src/docs/lighthousemobile.png)
 
 #### Performance:
-* EXPLAIN SCORE AND HOW I IMPROVED IT IF NECESSARY
+* The only place we lost performance was very minor amounts of images not being properly sized, and video formats being required for animated content. These were both due to the gif we've used in our footer.
+* Our images also do not have explicit width and height, as we opted for our images being more responsive.
+* All other issues were due to us using Bootstrap, which we decided was a worthwhile trade-off due to the speed at which we were able to complete this project.
+* These issues were magnified on mobile, as the images were not properly sized at all for mobile, as they were shrunk down from the desktop size.
 
 #### Accessibility:
-* EXPLAIN SCORE AND HOW I IMPROVED IT IF NECESSARY
+* We were incredibly careful to ensure that we had a fully accessible site.
+* All images have alt attributes.
+* All tap targets are above the required minimum of 48px.
 
 #### Best Practices:
-* EXPLAIN SCORE AND HOW I IMPROVED IT IF NECESSARY
+* This also suffered from our images - both incorrect aspect ratio, and low resolution. This is caused by our carousel images, which we were unable to edit.
 
 #### SEO:
-* EXPLAIN SCORE AND HOW I IMPROVED IT IF NECESSARY
+* We ensured we had full meta tags in our head element.
+* We also have a valid rel="canonical" tag in our head to tell search engines the source of truth for our site.
+* All external links being set with target="_blank" and rel="noopener" to avoid any security risks.
 
 ---
 ## Credits
 ### Code
-* ANY CODE I USED FROM OTHER PEOPLE OR SITES AND WHO IT'S FROM, INCLUDING CREDITING ANYONE WHO HELPED ME FIX BUGS
+* No code was taken from any other developer.
 
 ### Content
 * All code was written and edited by team 8 from [Code Institute](https://codeinstitute.net/):
