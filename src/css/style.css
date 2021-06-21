@@ -17,10 +17,7 @@ body {
 
 .gradient-rainbow {
   background-repeat: no-repeat;
-  background-image: linear-gradient(135deg, #eb5f8e, transparent 70%),
-    linear-gradient(45deg, #fe981d, #fcc31e, #35adce 85%),
-    linear-gradient(135deg, #eb5f8e, #fcc31e, #35adce),
-    linear-gradient(270deg, #35adce, transparent 30%);
+  background-image: linear-gradient(135deg, #eb5f8e, transparent 70%), linear-gradient(45deg, #fe981d, #fcc31e, #35adce 85%), linear-gradient(135deg, #eb5f8e, #fcc31e, #35adce), linear-gradient(270deg, #35adce, transparent 30%);
 }
 
 /* ------------------------------------------------------------------------ Align Bootstrap carousel */
@@ -31,7 +28,7 @@ body {
   height: 75vh;
 }
 
-.carousel-item{
+.carousel-item {
   width: auto;
 }
 
@@ -53,7 +50,7 @@ body {
 /* ------------------------------------------------------------------------ Main site */
 
 .header {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   padding: 20px;
   margin: auto;
@@ -64,7 +61,7 @@ body {
 }
 
 .text-background {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   border-radius: 10px;
   padding: 10px;
@@ -106,9 +103,7 @@ body {
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  background: -webkit-linear-gradient(#fe981d, #fcc31e, #35adce 85%),
-    linear-gradient(135deg, #eb5f8e, #fcc31e, #35adce),
-    linear-gradient(270deg, #35adce, transparent 30%);
+  background: -webkit-linear-gradient(#fe981d, #fcc31e, #35adce 85%), linear-gradient(135deg, #eb5f8e, #fcc31e, #35adce), linear-gradient(270deg, #35adce, transparent 30%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -169,7 +164,7 @@ body {
   text-align: center;
 }
 
-.footer_photo-img{
+.footer_photo-img {
   margin-top: 90px;
   width: 100%;
   height: 70px;
@@ -187,14 +182,23 @@ body {
   }
 }
 
+@media (min-width: 1200px) {
+  .jumbotron{
+    height: 190%
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .pride-flag-date {
     margin-top: -45%;
     margin-left: 30%;
   }
+  .jumbotron{
+    height: 190%;
+  }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .jumbotron {
     height: 80%;
   }
@@ -212,51 +216,47 @@ body {
     margin-top: -66px;
     padding: 5px;
   }
-
   .pride-flag-circle {
     width: 100px;
     height: 100px;
   }
-
   .jumbotron {
     height: 90%;
   }
-
   .footer-clean .item {
     text-align: center;
     padding-bottom: 20px;
   }
-
   .footer-clean .item.social {
     text-align: center;
   }
 }
 
-@media (max-width: 411px){
+@media (max-width: 411px) {
   .jumbotron {
     height: 115vh;
   }
 }
 
-@media (max-width: 376px){
+@media (max-width: 376px) {
   .jumbotron {
     height: 130%;
   }
 }
 
-@media (max-width: 361px){
+@media (max-width: 361px) {
   .jumbotron {
     height: 130vh;
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
   .jumbotron {
     height: 150vh;
   }
 }
 
-@media (max-width: 280px){
+@media (max-width: 280px) {
   .jumbotron {
     height: 130vh;
   }
