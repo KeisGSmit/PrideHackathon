@@ -107,7 +107,7 @@ For the proud-coders Hackathon, we were asked to contribute to finding solutions
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### Frameworks Libraries and Programs Used
-#### Bootstrap
+#### Bootstrap:
 [Bootstrap](https://getbootstrap.com/) was used to help us quickly design a good looking responsive site.
 #### Git:
 [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to add and commit to Git and push to GitHub.
