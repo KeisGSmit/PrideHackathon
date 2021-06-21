@@ -92,7 +92,7 @@ For the proud-coders Hackathon, we were asked to contribute to finding solutions
 [Here is the wireframe for desktop for this project](src/docs/wireframes.pdf).
 
 ### Features
-* There is a copyright function at the bottom that audomatically updates to the current year.
+* There is a copyright function at the bottom that automatically updates to the current year.
 * There is a hide / show function to show or hide the information for each date on click.
 * There is also an embedded Spotify player on the Community page, with podcasts on relating to the LGBTQ+ Community.
 
