@@ -183,7 +183,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .jumbotron{
+  .jumbotron {
     height: 190%
   }
 }
@@ -193,7 +193,7 @@ body {
     margin-top: -45%;
     margin-left: 30%;
   }
-  .jumbotron{
+  .jumbotron {
     height: 190%;
   }
 }
