@@ -107,7 +107,7 @@ For the proud-coders Hackathon, we were asked to contribute to finding solutions
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### Frameworks Libraries and Programs Used
-#### Bootstrap
+#### Bootstrap:
 [Bootstrap](https://getbootstrap.com/) was used to help us quickly design a good looking responsive site.
 #### Git:
 [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to add and commit to Git and push to GitHub.
@@ -179,6 +179,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 
 3. JSHint
     * [JSHint](https://jshint.com/)
+    * The unused variable isn't unused, as it's used in the onlick function in our HTML code.
 
 ![JSHint Results](src/docs/jshint.png)
 
