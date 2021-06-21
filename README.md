@@ -179,6 +179,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 
 3. JSHint
     * [JSHint](https://jshint.com/)
+    * The unused variable isn't unused, as it's used in the onlick function in our HTML code.
 
 ![JSHint Results](src/docs/jshint.png)
 
