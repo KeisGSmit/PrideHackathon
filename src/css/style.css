@@ -99,6 +99,10 @@ body {
   display: none;
 }
 
+.mobile-hr {
+  display: none;
+}
+
 .header-h2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -182,7 +186,7 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .jumbotron {
     height: 190%
   }
@@ -193,12 +197,13 @@ body {
     margin-top: -45%;
     margin-left: 30%;
   }
+
   .jumbotron {
     height: 190%;
   }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .jumbotron {
     height: 80%;
   }
@@ -216,47 +221,83 @@ body {
     margin-top: -66px;
     padding: 5px;
   }
+
   .pride-flag-circle {
     width: 100px;
     height: 100px;
   }
+
   .jumbotron {
     height: 90%;
   }
+
   .footer-clean .item {
     text-align: center;
     padding-bottom: 20px;
   }
+
   .footer-clean .item.social {
     text-align: center;
   }
 }
 
-@media (max-width: 411px) {
+@media screen and (max-width: 575px) {
+  .pride-flag-circle {
+    margin-left: 41%;
+    margin-bottom: 25px;
+  }
+
+  .pride-flag-date {
+    margin-left: 51%;
+    margin-top: -92px;
+  }
+
+  .text-background {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .info-row {
+    margin-bottom: 0;
+    margin-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .mobile-hr {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 411px) {
   .jumbotron {
     height: 115vh;
   }
 }
 
-@media (max-width: 376px) {
+@media screen and (max-width: 376px) {
   .jumbotron {
     height: 130%;
   }
+
+  .pride-flag-circle {
+    margin-left: 38%;
+    margin-bottom: 25px;
+  }
 }
 
-@media (max-width: 361px) {
+@media screen and (max-width: 361px) {
   .jumbotron {
     height: 130vh;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .jumbotron {
     height: 150vh;
   }
 }
 
-@media (max-width: 280px) {
+@media screen and (max-width: 280px) {
   .jumbotron {
     height: 130vh;
   }
